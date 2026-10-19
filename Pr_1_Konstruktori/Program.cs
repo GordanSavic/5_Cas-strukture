@@ -40,14 +40,22 @@ namespace Pr_1_Konstruktori
             r4.broilac = 3;
             r4.imenilac = 4;
             Console.WriteLine("Prikaz razlomaka:");
-            Console.Write("r1 = "); 
+            Console.Write("r1 = ");
             r1.Ispisi();
-            Console.Write("r2 = "); 
+            Console.Write("r2 = ");
             r2.Ispisi();
             Console.Write("r3 = ");
             r3.Ispisi();
             Console.Write("r4 = ");
             r4.Ispisi();
+            Racionalan r5 = r1;
+            r5.Ispisi();
+            r5.broilac = 9;
+            r5.imenilac = 5;
+            Console.Write("Novo r5 = ");
+            r5.Ispisi();
+            Console.Write("r1 = ");
+            r1.Ispisi();
         }
     }
 }
