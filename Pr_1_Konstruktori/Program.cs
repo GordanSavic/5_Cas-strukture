@@ -56,6 +56,7 @@ namespace Pr_1_Konstruktori
             r5.Ispisi();
             Console.Write("r1 = ");
             r1.Ispisi();
+
         }
     }
 }
